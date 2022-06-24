@@ -1,0 +1,23 @@
+## Files to be ignored by git ##
+
+# OS generated files
+.DS_Store*
+._*
+*~
+
+# Python, Jupyter, and Snakemake generated files
+*.pyc
+./cache/
+*.pytest_cache*
+*.ipynb_checkpoints*
+.snakemake/
+
+# LaTeX files
+*.pdf
+*.aux
+*.bbl
+*.log # Be careful if the project uses BEAST
+*.out
+*.synctex.gz
+*.blg
+*.latexdiff*

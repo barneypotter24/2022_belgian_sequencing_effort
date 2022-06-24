@@ -1,0 +1,18 @@
+# Project configuration YAML
+# To create conda environment, change <someName> to the abbreviated
+# project name and run `conda create -f <projectName>.yaml`
+# name: <someName>
+# channels:
+#   - defaults
+# dependencies:
+#   - ipykernel
+#   - ipython
+#   - jupyter
+#   - matplotlib
+#   - nb_conda_kernels
+#   - numpy
+#   - pandas
+#   - pip
+#   - python=3
+#   - seaborn
+#   - scipy
