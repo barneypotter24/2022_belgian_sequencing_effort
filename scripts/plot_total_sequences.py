@@ -27,7 +27,7 @@ def main(geoJSON: str) -> None:
     df_places['placeholder4']=np.random.randint(10000, size=len(df_places))
     i = 1
     for ax in axs.flatten():
-        ax = df_places.plot(column = f"placeholder{i}", cmap='cividis', ax=ax, legend=True, norm=mpl.colors.LogNorm())
+        ax = df_places.plot(column = f"placeholder{i}", cmap='cividis', ax=ax, legend=True)
     plt.show()
 
 if __name__=="__main__":
